@@ -1,12 +1,25 @@
-# Radix Colors
+# HSL Radix Colors
 
-This repo contains CSS files with [radix colors](https://www.radix-ui.com/colors)
-converted to hsl to support setting opacity in tailwind.
+This repo contains CSS files with _Radix Colors_ converted to _hsl_ to support
+[setting opacity in tailwind](https://tailwindcss.com/docs/customizing-colors#using-css-variables)
+like so:
+
+```html
+<div class="bg-primary/30">
+  <h1>Hello world</h1>
+</div>
+```
+
+Helpful when using [shadcn/ui](https://ui.shadcn.com/) as they usually style
+components with opacity.
+
+To get a list of [all colors](https://www.radix-ui.com/colors) visit the
+official Radix Colors website.
 
 ## Install
 
 ```sh
-bun add @wallpants/radix-colors
+bun add hsl-radix-colors
 ```
 
 ## Usage example
@@ -30,6 +43,10 @@ export default {
           DEFAULT: color("crimson-11"),
           foreground: color("crimson-1"),
         },
+        secondary: {
+          DEFAULT: color("blue-11"),
+          foreground: color("blue-1"),
+        },
       },
     },
   },
@@ -40,7 +57,8 @@ export default {
 
 ```css
 /* global.css */
-import "@wallpants/radix-colors/crimson.css";
+@import "hsl-radix-colors/crimson.css"; /* both light and dark included */
+@import "hsl-radix-colors/blue.css"; /* both light and dark included */
 
 @tailwind base;
 @tailwind components;
