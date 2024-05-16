@@ -1,0 +1,44 @@
+{
+  "name": "@wallpants/radix-colors",
+  "author": "wallpants",
+  "type": "module",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "Radix Colors converted to hsl",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wallpants/radix-colors.git"
+  },
+  "scripts": {
+    "generate": "bun run generate-colors.ts"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "body-max-line-length": [
+        0
+      ]
+    }
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@radix-ui/colors": "^3.0.0"
+  }
+}

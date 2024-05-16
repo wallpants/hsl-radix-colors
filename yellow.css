@@ -1,0 +1,28 @@
+:root, .light, .light-theme {
+  --yellow-1: 60 50 98.4;
+  --yellow-2: 54 91.3 95.5;
+  --yellow-3: 56 100 86.1;
+  --yellow-4: 53 100 79;
+  --yellow-5: 50 100 72;
+  --yellow-6: 48 85.3 68;
+  --yellow-7: 46 69.8 64.9;
+  --yellow-8: 45 65 52.9;
+  --yellow-9: 53 100 58;
+  --yellow-10: 52 100 50;
+  --yellow-11: 41 100 31;
+  --yellow-12: 42 39.2 20;
+}
+.dark, .dark-theme {
+  --yellow-1: 47 29 6.1;
+  --yellow-2: 45 28.6 8.2;
+  --yellow-3: 45 80 9.8;
+  --yellow-4: 48 100 10.6;
+  --yellow-5: 47 100 13.1;
+  --yellow-6: 48 95.2 16.5;
+  --yellow-7: 46 63.2 24.5;
+  --yellow-8: 45 59.8 32.2;
+  --yellow-9: 53 100 58;
+  --yellow-10: 60 100 67.1;
+  --yellow-11: 53 89.7 62;
+  --yellow-12: 53 78.6 83.5;
+}
