@@ -1,28 +1,28 @@
 :root, .light, .light-theme {
-  --tomato-1: 0 100 99.4;
-  --tomato-2: 7 100 98.4;
-  --tomato-3: 10 92 95.1;
-  --tomato-4: 12 100 91.4;
-  --tomato-5: 11 100 88;
-  --tomato-6: 11 95.1 83.9;
-  --tomato-7: 10 82.3 77.8;
-  --tomato-8: 10 74.8 70.4;
-  --tomato-9: 10 77.9 53.9;
-  --tomato-10: 10 73 50.6;
-  --tomato-11: 10 81.7 45.1;
-  --tomato-12: 8 49.6 24.1;
+  --tomato-1: 0deg 100% 99.4%;
+  --tomato-2: 7deg 100% 98.4%;
+  --tomato-3: 10deg 92% 95.1%;
+  --tomato-4: 12deg 100% 91.4%;
+  --tomato-5: 11deg 100% 88%;
+  --tomato-6: 11deg 95.1% 83.9%;
+  --tomato-7: 10deg 82.3% 77.8%;
+  --tomato-8: 10deg 74.8% 70.4%;
+  --tomato-9: 10deg 77.9% 53.9%;
+  --tomato-10: 10deg 73% 50.6%;
+  --tomato-11: 10deg 81.7% 45.1%;
+  --tomato-12: 8deg 49.6% 24.1%;
 }
 .dark, .dark-theme {
-  --tomato-1: 0 17.1 8;
-  --tomato-2: 10 24 9.8;
-  --tomato-3: 5 48.1 15.1;
-  --tomato-4: 4 64.2 18.6;
-  --tomato-5: 5 62.1 22.7;
-  --tomato-6: 7 54.9 27.8;
-  --tomato-7: 9 49.4 34.9;
-  --tomato-8: 10 50.2 44.9;
-  --tomato-9: 10 77.9 53.9;
-  --tomato-10: 11 81.7 59.2;
-  --tomato-11: 12 100 74.5;
-  --tomato-12: 10 85.7 89;
+  --tomato-1: 0deg 17.1% 8%;
+  --tomato-2: 10deg 24% 9.8%;
+  --tomato-3: 5deg 48.1% 15.1%;
+  --tomato-4: 4deg 64.2% 18.6%;
+  --tomato-5: 5deg 62.1% 22.7%;
+  --tomato-6: 7deg 54.9% 27.8%;
+  --tomato-7: 9deg 49.4% 34.9%;
+  --tomato-8: 10deg 50.2% 44.9%;
+  --tomato-9: 10deg 77.9% 53.9%;
+  --tomato-10: 11deg 81.7% 59.2%;
+  --tomato-11: 12deg 100% 74.5%;
+  --tomato-12: 10deg 85.7% 89%;
 }

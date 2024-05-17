@@ -80,7 +80,7 @@ function hexToHSL(hex: string): string {
   s = +(s * 100).toFixed(1);
   l = +(l * 100).toFixed(1);
 
-  return `${h} ${s} ${l}`;
+  return `${h}deg ${s}% ${l}%`;
 }
 
 function processLine(line: string) {

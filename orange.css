@@ -1,28 +1,28 @@
 :root, .light, .light-theme {
-  --orange-1: 20 60 99;
-  --orange-2: 33 100 96.5;
-  --orange-3: 37 100 92;
-  --orange-4: 34 100 85.5;
-  --orange-5: 33 100 80.2;
-  --orange-6: 30 100 75.5;
-  --orange-7: 27 86.7 70.6;
-  --orange-8: 25 79.9 62.9;
-  --orange-9: 23 93.4 52.5;
-  --orange-10: 24 100 46.9;
-  --orange-11: 23 100 40;
-  --orange-12: 16 50.4 22.9;
+  --orange-1: 20deg 60% 99%;
+  --orange-2: 33deg 100% 96.5%;
+  --orange-3: 37deg 100% 92%;
+  --orange-4: 34deg 100% 85.5%;
+  --orange-5: 33deg 100% 80.2%;
+  --orange-6: 30deg 100% 75.5%;
+  --orange-7: 27deg 86.7% 70.6%;
+  --orange-8: 25deg 79.9% 62.9%;
+  --orange-9: 23deg 93.4% 52.5%;
+  --orange-10: 24deg 100% 46.9%;
+  --orange-11: 23deg 100% 40%;
+  --orange-12: 16deg 50.4% 22.9%;
 }
 .dark, .dark-theme {
-  --orange-1: 27 24.3 7.3;
-  --orange-2: 28 33.3 8.8;
-  --orange-3: 29 64.5 12.2;
-  --orange-4: 28 100 13.7;
-  --orange-5: 28 100 16.9;
-  --orange-6: 27 78.9 22.4;
-  --orange-7: 25 62.6 30.4;
-  --orange-8: 23 59.8 40;
-  --orange-9: 23 93.4 52.5;
-  --orange-10: 26 100 56.1;
-  --orange-11: 26 100 67.1;
-  --orange-12: 30 100 88;
+  --orange-1: 27deg 24.3% 7.3%;
+  --orange-2: 28deg 33.3% 8.8%;
+  --orange-3: 29deg 64.5% 12.2%;
+  --orange-4: 28deg 100% 13.7%;
+  --orange-5: 28deg 100% 16.9%;
+  --orange-6: 27deg 78.9% 22.4%;
+  --orange-7: 25deg 62.6% 30.4%;
+  --orange-8: 23deg 59.8% 40%;
+  --orange-9: 23deg 93.4% 52.5%;
+  --orange-10: 26deg 100% 56.1%;
+  --orange-11: 26deg 100% 67.1%;
+  --orange-12: 30deg 100% 88%;
 }

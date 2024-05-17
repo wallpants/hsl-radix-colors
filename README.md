@@ -31,7 +31,7 @@ bun add hsl-radix-colors
 import type { Config } from "tailwindcss";
 
 function color(cssVar: string) {
-  return `hsl(var(--${cssVar}))`;
+  return `hsl(var(--${cssVar}) / <alpha-value>)`;
 }
 
 export default {
